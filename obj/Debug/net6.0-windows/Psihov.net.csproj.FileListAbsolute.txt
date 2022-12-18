@@ -1,0 +1,72 @@
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.AssemblyReference.cache
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.GenerateResource.cache
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AssemblyInfoInputs.cache
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AssemblyInfo.cs
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.CoreCompileInputs.cache
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.exe
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.deps.json
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.runtimeconfig.json
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.pdb
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\refint\Psihov.net.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.pdb
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.genruntimeconfig.cache
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\ref\Psihov.net.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.Properties.Resources.resources
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.Register.resources
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.Login.resources
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\DnsClient.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\SharpCompress.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\Snappier.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.CopyComplete
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminMenu1.resources
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.StartScreen.resources
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminPanel2.resources
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminMenu2.resources
+C:\github\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.exe
+C:\github\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.deps.json
+C:\github\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.runtimeconfig.json
+C:\github\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.pdb
+C:\github\Psihov.net\bin\Debug\net6.0-windows\DnsClient.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\SharpCompress.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\Snappier.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\github\Psihov.net\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\github\Psihov.net\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\github\Psihov.net\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.AssemblyReference.cache
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminMenu1.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminMenu2.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminPanel2.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.Login.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.Properties.Resources.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.Register.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.StartScreen.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.GenerateResource.cache
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AssemblyInfoInputs.cache
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AssemblyInfo.cs
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.CoreCompileInputs.cache
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.CopyComplete
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.dll
+C:\github\Psihov.net\obj\Debug\net6.0-windows\refint\Psihov.net.dll
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.pdb
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.genruntimeconfig.cache
+C:\github\Psihov.net\obj\Debug\net6.0-windows\ref\Psihov.net.dll
