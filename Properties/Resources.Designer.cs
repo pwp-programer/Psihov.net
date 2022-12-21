@@ -73,9 +73,29 @@ namespace Psihov.net.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Admin_panel_11 {
+            get {
+                object obj = ResourceManager.GetObject("Admin panel 11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Admin_panel_2 {
             get {
                 object obj = ResourceManager.GetObject("Admin panel 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ClientMainMenu {
+            get {
+                object obj = ResourceManager.GetObject("ClientMainMenu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -54,7 +54,6 @@ C:\github\Psihov.net\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.AssemblyReference.cache
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminMenu1.resources
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminMenu2.resources
-C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminPanel2.resources
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.Login.resources
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.Properties.Resources.resources
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.Register.resources
@@ -70,3 +69,4 @@ C:\github\Psihov.net\obj\Debug\net6.0-windows\refint\Psihov.net.dll
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.pdb
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.genruntimeconfig.cache
 C:\github\Psihov.net\obj\Debug\net6.0-windows\ref\Psihov.net.dll
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.ClientMainMenu.resources

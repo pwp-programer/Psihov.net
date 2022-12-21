@@ -97,16 +97,22 @@ namespace Psihov.net
                     var filter = new BsonDocument { { "username", textBox1.Text } };
                     IFindFluent<BsonDocument, BsonDocument> login = logins.Find(filter);
                     string username = login.First().GetValue("username").AsString;
-                    int password = login.First().GetValue("password").AsInt32;
+                    int password = login.First().GetValue("password").ToInt32();
+                    bool IsAdmin = login.First().GetValue("isAdmin").ToBoolean();
 
                     try
                     {
                         if (textBox1.Text != "Логин:" || textBox2.Text != "Пароль:" || textBox1.Text != String.Empty || textBox2.Text != String.Empty)
                         {
-                            if (textBox1.Text == username && int.Parse(textBox2.Text) == password)
+                            if (textBox1.Text == username && int.Parse(textBox2.Text) == password
+                                && IsAdmin == false)
                             {
                                 logins.DeleteOne(login.First());
                                 MessageBox.Show("Учётная запись удалена", "Psihov.net");
+                            }
+                            else
+                            {
+                                MessageBox.Show("Вы не можете удалить эту учётную запись", "Psihov.net");
                             }
                         }
                         else
@@ -121,7 +127,7 @@ namespace Psihov.net
                 }
                 catch (System.InvalidOperationException)
                 {
-                    MessageBox.Show("Такой учётной записи нет", "Psihov.net");
+                    MessageBox.Show("такой учётной записи нет", "psihov.net");
                 }
             }
         }
@@ -156,3 +162,7 @@ namespace Psihov.net
         }
     }
 }
+
+
+// TODO: Проверка на админа при удалении, редактирование формы создания уч записей врачей.
+// TODO: Добавить формы пациентов.

@@ -22,6 +22,10 @@ namespace Psihov.net
 
             textBox1.BackColor = Color.FromArgb(245, 245, 245);
             textBox2.BackColor = Color.FromArgb(245, 245, 245);
+            textBox3.BackColor = Color.FromArgb(245, 245, 245);
+            textBox4.BackColor = Color.FromArgb(245, 245, 245);
+            textBox5.BackColor = Color.FromArgb(245, 245, 245);
+
 
             label2.BackColor = Color.FromArgb(220, 237, 245);
 
@@ -76,6 +80,7 @@ namespace Psihov.net
             textBox2.UseSystemPasswordChar = true;
         }
 
+
         private void textBox2_Leave(object sender, EventArgs e)
         {
             if (textBox2.Text == "")
@@ -86,6 +91,7 @@ namespace Psihov.net
                 textBox2.UseSystemPasswordChar = false;
             }
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -98,6 +104,7 @@ namespace Psihov.net
                 MongoClient client = new MongoClient("mongodb://localhost:27017");
                 var db = client.GetDatabase("Psixov_net");
                 var logins = db.GetCollection<BsonDocument>("login");
+                var doctors = db.GetCollection<BsonDocument>("doctor");
                 try
                 {
                     var filter = new BsonDocument { { "username", textBox1.Text } };
@@ -109,8 +116,19 @@ namespace Psihov.net
                 }
                 catch (System.InvalidOperationException)
                 {
+                    // Добавление в коллекцию login
                     New_User user = new New_User(textBox1.Text, int.Parse(textBox2.Text), false, true);
                     logins.InsertOne(user.ToBsonDocument());
+
+
+
+                    // Добавление в коллекцию doctor
+                    New_Doctor d = new New_Doctor(textBox1.Text, textBox3.Text,
+                    int.Parse(textBox4.Text), int.Parse(textBox5.Text));
+                    doctors.InsertOne(d.ToBsonDocument());
+
+
+                    //  Оповещение об успешной регистрации
                     MessageBox.Show("Вы успешно зарегистрированны!", "Psihov.net");
                 }
             }
@@ -146,6 +164,62 @@ namespace Psihov.net
             a.Show();
             a.Location = new Point(this.Location.X, this.Location.Y);
             this.Hide();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_Enter(object sender, EventArgs e)
+        {
+            textBox3.Text = "";
+            textBox3.ForeColor = Color.Black;
+            textBox3.Enter -= textBox3_Enter;
+        }
+
+        private void textBox3_Leave(object sender, EventArgs e)
+        {
+            if (textBox3.Text == "")
+            {
+                textBox3.Text = "Номер кабинета:";
+                textBox3.ForeColor = Color.Gray;
+                textBox3.Enter += textBox3_Enter;
+            }
+        }
+
+        private void textBox4_Enter(object sender, EventArgs e)
+        {
+            textBox4.Text = "";
+            textBox4.ForeColor = Color.Black;
+            textBox4.Enter -= textBox4_Enter;
+        }
+
+        private void textBox4_Leave(object sender, EventArgs e)
+        {
+            if (textBox4.Text == "")
+            {
+                textBox4.Text = "Начало рабочего дня:";
+                textBox4.ForeColor = Color.Gray;
+                textBox4.Enter += textBox4_Enter;
+            }
+        }
+
+        private void textBox5_Enter(object sender, EventArgs e)
+        {
+            textBox5.Text = "";
+            textBox5.ForeColor = Color.Black;
+            textBox5.Enter -= textBox5_Enter;
+        }
+
+        private void textBox5_Leave(object sender, EventArgs e)
+        {
+            if (textBox5.Text == "")
+            {
+                textBox5.Text = "Конец рабочего дня:";
+                textBox5.ForeColor = Color.Gray;
+                textBox5.Enter += textBox5_Enter;
+            }
         }
     }
 }

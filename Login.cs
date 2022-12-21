@@ -121,6 +121,7 @@ namespace Psihov.net
                     string username = login.First().GetValue("username").AsString;
                     int password = login.First().GetValue("password").ToInt32();
                     bool isAdmin = login.First().GetValue("isAdmin").ToBoolean();
+                    bool isDoctor = login.First().GetValue("isDoctor").ToBoolean();
                     if (password != int.Parse(textBox2.Text))
                     {
                         MessageBox.Show("Введен неверный пароль!", "Psihov.net");
@@ -132,6 +133,17 @@ namespace Psihov.net
                         AdminMenu1 a = new AdminMenu1();
                         a.Show();
                         a.Location = new Point(this.Location.X, this.Location.Y);
+                        this.Hide();
+                    }
+                    else if (isDoctor == true)
+                    {
+                        //pass;
+                    }
+                    else
+                    {
+                        ClientMainMenu c = new ClientMainMenu();
+                        c.Show();
+                        c.Location = new Point(this.Location.X, this.Location.Y);
                         this.Hide();
                     }
                 }

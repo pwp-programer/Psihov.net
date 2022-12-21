@@ -130,7 +130,7 @@
             this.Controls.Add(this.label1);
             this.MaximumSize = new System.Drawing.Size(972, 615);
             this.Name = "AdminMenu2";
-            this.Text = "AdminMenu2";
+            this.Text = "Psihov.net - Панель администратора";
             this.Load += new System.EventHandler(this.AdminMenu2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

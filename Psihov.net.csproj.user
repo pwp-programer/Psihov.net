@@ -7,7 +7,7 @@
     <Compile Update="AdminMenu2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AdminPanel2.cs">
+    <Compile Update="ClientMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="StartScreen.cs">
