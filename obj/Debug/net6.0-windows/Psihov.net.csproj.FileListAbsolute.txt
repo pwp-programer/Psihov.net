@@ -32,7 +32,6 @@ C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\bin\Debug\net6.0-wind
 C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.csproj.CopyComplete
 C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminMenu1.resources
 C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.StartScreen.resources
-C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminPanel2.resources
 C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.AdminMenu2.resources
 C:\github\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.exe
 C:\github\Psihov.net\bin\Debug\net6.0-windows\Psihov.net.deps.json
@@ -70,3 +69,4 @@ C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.pdb
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.genruntimeconfig.cache
 C:\github\Psihov.net\obj\Debug\net6.0-windows\ref\Psihov.net.dll
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.ClientMainMenu.resources
+C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.ClientMainMenu.resources
