@@ -117,16 +117,8 @@ namespace Psihov.net
                 catch (System.InvalidOperationException)
                 {
                     // Добавление в коллекцию login
-                    New_User user = new New_User(textBox1.Text, int.Parse(textBox2.Text), false, true);
+                    New_User user = new New_User(textBox1.Text, int.Parse(textBox2.Text), false);
                     logins.InsertOne(user.ToBsonDocument());
-
-
-
-                    // Добавление в коллекцию doctor
-                    New_Doctor d = new New_Doctor(textBox1.Text, textBox3.Text,
-                    int.Parse(textBox4.Text), int.Parse(textBox5.Text));
-                    doctors.InsertOne(d.ToBsonDocument());
-
 
                     //  Оповещение об успешной регистрации
                     MessageBox.Show("Вы успешно зарегистрированны!", "Psihov.net");

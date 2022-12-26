@@ -151,7 +151,7 @@ namespace Psihov.net
                     {
                         if (textBox1.Text != "Логин:" && textBox2.Text != "Пароль:")
                         {
-                            New_User user = new New_User(textBox1.Text, int.Parse(textBox2.Text), false, false);
+                            New_User user = new New_User(textBox1.Text, int.Parse(textBox2.Text), false);
                             logins.InsertOne(user.ToBsonDocument());
                             MessageBox.Show("Вы успешно зарегистрированны!", "Psihov.net");
                             Login l = new Login();

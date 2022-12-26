@@ -68,5 +68,7 @@ C:\github\Psihov.net\obj\Debug\net6.0-windows\refint\Psihov.net.dll
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.pdb
 C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.genruntimeconfig.cache
 C:\github\Psihov.net\obj\Debug\net6.0-windows\ref\Psihov.net.dll
-C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.ClientMainMenu.resources
 C:\Users\Bogda\OneDrive\Рабочий стол\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.ClientMainMenu.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.DoctorMainMenu2.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.DoctorMainMenu1.resources
+C:\github\Psihov.net\obj\Debug\net6.0-windows\Psihov.net.DoctorMainMenu3.resources

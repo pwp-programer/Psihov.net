@@ -21,47 +21,53 @@ namespace Psihov.net
 
     class User
     {
-        public string username { get; set; }
+        public string Name { get; set; }
         public User(string name)
         {
-            this.username = username;
+            this.Name = Name;
         }
     }
 
 
     class New_User : User
     {
-        public string username { get; }
         public int password { get; set; }
         public bool isAdmin { get; set; }
-        public bool isDoctor { get; set; }
 
 
 
-        public New_User(string username, int password, bool isAdmin, bool isDoctor) : base(username)
+        public New_User(string name, int password, bool isAdmin) : base(name)
         {
+            this.Name = name;
             this.password = password;
-            this.username = username;
             this.isAdmin = isAdmin;
-            this.isDoctor = isDoctor;
         }
     }
 
 
-    class New_Doctor : User
+    class NewClientData : User
     {
-        public string kabina { get; set; }
-        public int StartWorkingTime { get; set; }
-        public int EndWorkingTime { get; set; }
-        string username { get; set; }
+        public string Surname { get; set; }
+        public string MiddleName { get; set; }
+        public string Diagnosis { get; set; }
+        public string Date { get; set; }
+        public string DoctorName { get; set; }
 
-
-        public New_Doctor(string username, string kabina, int StartWorkingTime, int EndWorkingTime) : base(username)
+        public NewClientData(string surname, string name, string middleName, string diagnosis, string date, string doctorName)
+            : base(name)
         {
-            this.kabina = kabina;
-            this.StartWorkingTime = StartWorkingTime;
-            this.EndWorkingTime = EndWorkingTime;
-            this.username = username;
+            Surname = surname;
+            this.Name = name;
+            MiddleName = middleName;
+            Diagnosis = diagnosis;
+            Date = date;
+            DoctorName = doctorName;
         }
+    }
+
+
+    static class DoctorName
+    {
+        public static string Name;
     }
 }
